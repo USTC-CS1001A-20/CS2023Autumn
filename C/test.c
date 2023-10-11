@@ -1,11 +1,33 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<math.h>
-int main (){
-    printf ("\aStartled by the sudden sound ,Sally shouted,\n\"By the Great Pumpkin,what was that!\"");
-    int a = 153351;
-    for(unsigned i = 1; (int)log2(i) < 8*sizeof(int); i<<=1){
-        printf("%d", (i&a)>>(unsigned int)log2(i));
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    float a3,a2,a1,a0,e,x,low,high,x1,xx=100,y;
+    int i,n;
+    scanf("%f %f %f %f\n",&a3,&a2,&a1,&a0);
+    scanf("%f\n",&e);
+    scanf("%f\n",&x);
+    scanf("%f %f\n",&low,&high);
+    for(i=0;xx>e;i++)
+    {
+        xx=(x*x*x*a3+x*x*a2+x*a1+a0)/(3*x*x*a3+2*x*a2+a1);
+        x=x-xx;
+        xx=fabs(xx);
     }
+    for(n=0;high-low>=e;n++)
+    {
+        x1=(high+low)/2;
+        y=x1*x1*x1*a3+x1*x1*a2+x1*a1+a0;
+        if(high*y<=0)
+            low=x1;
+        else
+            high=x1;
+    }
+    printf("%f\n",x);
+    printf("%d\n",i);
+    printf("%f\n",high);
+    printf("%d\n",n);
     return 0;
 }
+
+
