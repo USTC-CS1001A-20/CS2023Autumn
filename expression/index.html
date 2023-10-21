@@ -656,60 +656,79 @@
 <pre><code class="language-C">//算术表达式
 -a + b - c * !&amp;d - 0.3;
 arithmetic expression
+
 //关系表达式
 d &lt;= e + b - c * *x;
 comparison expression
+
 //逻辑表达式
 a || b | c &amp;&amp; d ^ e || f &amp; 0 | 1;
 logic expression
+
 //非法 使用了保留字符int
 a || b | int &amp;&amp; d ^ e || f &amp; 0 | 1;//bonus
 Invalid!
+
 //非法 逻辑运算符两操作数必须为整型
 a || b | c &amp;&amp; d ^ e || f &amp; 0 | 1.3;
 Invalid!
+
 //逻辑表达式
 a || b | c &amp;&amp; d ^ e || f &amp; 0LL | 1;//bonus
 logic expression
+
 //算术表达式
 -!&amp;a;
-logic expression
+arithmetic expression
+
 //非法 出现--
 --!*&amp;a;
 Invalid!
+
 //非法 无效双目运算符@
 a @ b ^ c;
 Invalid!
+
 //非法 双目运算符操作数缺失（这里&lt; =是两个双目运算符）
 a &lt; = b;
 Invalid!
+
 //非法 不是三种表达式之一
 *&amp;a;
 Invalid!
+
 //非法 不是三种表达式之一
 a = b + c;
 Invalid!
+
 //非法 双目运算符操作数缺失
 &amp;&amp;a = c | d;
 Invalid!
+
 //关系表达式
 aishodbioascyhasioydasudjwioeqrohiwqh &lt;= yuasidgyuaistdyui23uiwqyasuiduasidhasdasd;
 comparison expression
+
 //关系表达式
 $a &lt; op;//bonus
 comparison expression
+
 //关系表达式
 ___ptr &lt; 0;//bonus
 comparison expression
+
 //逻辑表达式
 -___ || +___;//bonus
 logic expression
+
 //关系表达式
 ~asd &lt;= 0;
 comparison expression
+
 //逻辑表达式
 !~a;
 logic expression
+
 //算术表达式
 ~!a;
 arithmetic expression
