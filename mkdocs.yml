@@ -1,0 +1,18 @@
+site_name: CS1001A.20
+site_description: 计算机程序设计A(2023 吴锋)
+
+nav:
+- index: index.md
+- Lab:
+  - 第一次实验: 第一章 编程工具的安装与使用.md
+  - 第四次实验: expression.md
+
+theme:
+  name: material
+  nav_style: light
+  custom_dir: docs/
+  highlightjs: true
+  hljs_languages:
+    - yaml
+plugins:
+  - search
