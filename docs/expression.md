@@ -97,60 +97,79 @@
 //算术表达式
 -a + b - c * !&d - 0.3;
 arithmetic expression
+    
 //关系表达式
 d <= e + b - c * *x;
 comparison expression
+    
 //逻辑表达式
 a || b | c && d ^ e || f & 0 | 1;
 logic expression
+    
 //非法 使用了保留字符int
 a || b | int && d ^ e || f & 0 | 1;//bonus
 Invalid!
+    
 //非法 逻辑运算符两操作数必须为整型
 a || b | c && d ^ e || f & 0 | 1.3;
 Invalid!
+    
 //逻辑表达式
 a || b | c && d ^ e || f & 0LL | 1;//bonus
 logic expression
+    
 //算术表达式
 -!&a;
-logic expression
+arithmetic expression
+    
 //非法 出现--
 --!*&a;
 Invalid!
+    
 //非法 无效双目运算符@
 a @ b ^ c;
 Invalid!
+    
 //非法 双目运算符操作数缺失（这里< =是两个双目运算符）
 a < = b;
 Invalid!
+    
 //非法 不是三种表达式之一
 *&a;
 Invalid!
+    
 //非法 不是三种表达式之一
 a = b + c;
 Invalid!
+    
 //非法 双目运算符操作数缺失
 &&a = c | d;
 Invalid!
+    
 //关系表达式
 aishodbioascyhasioydasudjwioeqrohiwqh <= yuasidgyuaistdyui23uiwqyasuiduasidhasdasd;
 comparison expression
+    
 //关系表达式
 $a < op;//bonus
 comparison expression
+    
 //关系表达式
 ___ptr < 0;//bonus
 comparison expression
+    
 //逻辑表达式
 -___ || +___;//bonus
 logic expression
+    
 //关系表达式
 ~asd <= 0;
 comparison expression
+    
 //逻辑表达式
 !~a;
 logic expression
+    
 //算术表达式
 ~!a;
 arithmetic expression
