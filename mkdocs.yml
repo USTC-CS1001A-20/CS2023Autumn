@@ -6,7 +6,9 @@ nav:
 - Lab:
   - 第一次实验: 第一章 编程工具的安装与使用.md
   - 第四次实验: expression.md
-
+- 如何科学的提问:
+  - 提问的指挥: https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md
+  - 别像弱智一样提问: https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways/blob/master/README.md
 theme:
   name: material
   nav_style: light
