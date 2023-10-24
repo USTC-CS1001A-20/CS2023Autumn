@@ -101,16 +101,16 @@ arithmetic expression
 d <= e + b - c * *x;
 comparison expression
 //逻辑表达式
-a || b | c && d ^ e || f & 0 | 1;
+a | b | c && d ^ e || f & 0 | 1;
 logic expression
 //非法 使用了保留字符int
-a || b | int && d ^ e || f & 0 | 1;//bonus
+a ^ b | int && d ^ e || f & 0 | 1;//bonus
 Invalid!
-//非法 逻辑运算符两操作数必须为整型
-a || b | c && d ^ e || f & 0 | 1.3;
+//非法 算术运算符两操作数必须为整型
+a & b | c && d ^ e || f & 0 | 1.3;
 Invalid!
 //逻辑表达式
-a || b | c && d ^ e || f & 0LL | 1;//bonus
+a | b | c && d ^ e || f & 0LL | 1;//bonus
 logic expression
 //算术表达式
 -!&a;

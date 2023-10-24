@@ -105,18 +105,6 @@ int insertion_sort(int a[100], int n, int sign)
     return count;
 }
 
-int test(){
-    int a, b, c, d, e, *x, f;
-    -a + b - c * !&d - 0.3;
-    a + b > c && d <= e + b - c * *x;
-    a || b | c && d ^ e || f & 0LL | 1;
-    -!*&a;
-    int ___;
-    !~a;
-    ~!a;
-    1>0 & 1;
-    a < = b;
-}
 
 int main()
 {
