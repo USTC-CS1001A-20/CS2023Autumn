@@ -98,7 +98,7 @@
 -a + b - c * !&d - 0.3;
 arithmetic expression
 //关系表达式
-d <= e + b - c * *x;
+d + b <= e - c * *x;
 comparison expression
 //逻辑表达式
 a | b | c && d ^ e || f & 0 | 1;
@@ -137,13 +137,13 @@ Invalid!
 aishodbioascyhasioydasudjwioeqrohiwqh <= yuasidgyuaistdyui23uiwqyasuiduasidhasdasd;
 comparison expression
 //关系表达式
-$a < op;//bonus
+$a - b < op;//bonus
 comparison expression
 //关系表达式
 ___ptr < 0;//bonus
 comparison expression
 //逻辑表达式
--___ || +___;//bonus
+-___ - 3 || 5 + +___;//bonus
 logic expression
 //关系表达式
 ~asd <= 0;
