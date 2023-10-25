@@ -45,6 +45,7 @@ int bubble_sort(int a[100], int n, int sign)
     int count = 0;
     for (i = 0; i < n - 1; i++)
     {
+        int noswap = 1;
         for (j = 0; j < n - i - 1; j++)
         {
             if (sign == 1)
@@ -54,6 +55,7 @@ int bubble_sort(int a[100], int n, int sign)
                     temp = a[j];
                     a[j] = a[j + 1];
                     a[j + 1] = temp;
+                    noswap = 0;
                 }
             }
             else
@@ -63,10 +65,12 @@ int bubble_sort(int a[100], int n, int sign)
                     temp = a[j];
                     a[j] = a[j + 1];
                     a[j + 1] = temp;
+                    noswap = 0;
                 }
             }
             count++;
         }
+        if(noswap) break;
     }
     return count;
 }
