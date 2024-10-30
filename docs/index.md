@@ -14,9 +14,8 @@
 
 ## 课程资料
 
-录课与回放：[在线视频平台 (ustc.edu.cn)](https://v.ustc.edu.cn/1/2023-1/capture-course/CS1001A.20/detail)
+录课与回放：[在线视频平台 (ustc.edu.cn)](https://v.ustc.edu.cn/1/2024-1/capture-course/CS1001A.20/detail)
 
-实验平台：[CourseGrading (ustc.edu.cn)](https://cscourse.ustc.edu.cn/indexcs/simple.jsp?loginErr=0)
 
 C/C++手册：[cppreference.com](https://en.cppreference.com/w/)
 
@@ -24,18 +23,7 @@ C/C++手册：[cppreference.com](https://en.cppreference.com/w/)
 
 洛谷：[首页 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/)
 
----
 
-## 作业与实验
-
-| Lab1 | 已截止         |
-| ---- | -------------- |
-| Lab2 | 10月22日 23:55 |
-| Lab3 | 10月29日 23:55 |
-| Lab4 | 11月12日 23:55 |
-| Lab5 | 11月15日 23:55 |
-| Lab6 | 未发布         |
-| ...  | ...            |
 
 
 

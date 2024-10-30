@@ -33,7 +33,7 @@
 
 
 
-> <font color = red>需要注意的是 如果输入的表达式是a &a *a *&a，需要将它识别为非法表达式</font>
+> <font color = red>需要注意的是 如果输入的表达式是`a &a *a *&a`，需要将它识别为非法表达式</font>
 
 ## 非法表达式
 
@@ -114,7 +114,7 @@ a | b | c && d ^ e || f & 0LL | 1;//bonus
 logic expression
 //算术表达式
 -!&a;
-logic expression
+arithmetic expression
 //非法 出现--
 --!*&a;
 Invalid!
